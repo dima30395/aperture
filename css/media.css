@@ -191,6 +191,15 @@
         margin-right: 5%;
         margin-left: 5%;
     }
+    .info__list.info__list-title {
+        bottom: 0px;
+        right: 11px;
+        flex-direction: row;
+        width: 85%;
+    }
+    .info__list.info__list-title .info__list-item+.info__list-item {
+        margin-top: 0;
+    }
 }
 
 @media(max-width: 360px) {}
